@@ -1,0 +1,90 @@
+#{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0% auto;
+}
+header{
+    overflow: hidden;
+     background: rgb(221, 166, 166);
+}
+header .logo{
+    width: 20%;
+    float: left;
+}
+header .logo img{
+    width: 120px;
+}
+
+header .menu{
+    width: 80%;
+    float: right;
+}
+.menu ul{
+    list-style-type: none
+}
+.menu ul li{
+    float: left; 
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 38px 20px;
+    color: #B8FF33;
+    font-size: 18px;
+    display: inline-block;
+}
+.menu ul li a:hover{
+    background-color: rgb(20, 13, 1);
+}
+#hero{
+    background: url('Rabby1.jpg');
+    background-position: center;
+}
+#hero{
+    height: 70vh;
+    width: 100%;
+}
+#hero h1{
+padding: 380px 70px;
+color: rgb(20, 18, 18);
+font-size: 60px;
+}
+#mainarea{}
+#mainarea div{
+    width: 29%;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .7s;
+}
+#mainarea .part1{
+    background-color: #B8FF33;
+}
+#mainarea .part2{
+    background-color: rgb(215, 16, 16);
+}
+#mainarea .part3{
+     background-color: blue;
+}
+#mainarea .part1:hover{
+    transform: rotate(360deg);
+    background-color: rgb(132, 19, 230);
+}
+#mainarea .part2:hover{
+    transform: rotate(360deg);
+    background-color: rgb(69, 64, 74);
+}
+#mainarea .part3:hover{
+    transform: rotate(360deg);
+    background-color: rgb(70, 215, 21);
+}
+footer{
+    clear: both;
+    background-color: rgb(243, 233, 233);
+    color: rgb(1, 18, 13);
+    text-align: center;
+    padding: 50px 20px;
+}
